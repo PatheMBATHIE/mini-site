@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulaire Contact</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h2>Bienvenue sur mon Mini Site Personnel</h2>
+        <nav>
+                <a href="index.html" class="menu" id="accueil">Accueil</a>
+                <a href="cv.html" class="menu" id="cv">CV</a>
+                <a href="projets.html" class="menu" id="projets">Projets</a>
+                <a href="contact.html" class="menu" id="contact">Contact</a>
+        </nav>
+    </header>
+    <main id="contactForm">
+            <p> <span id="libre">Me contacter</span><br> Je suis à votre disposition pour toute question ou collaboration. <br><br>
+            Remplissez le formulaire ci-dessous pour me contacter</p>
+            <form action="#" method="post" id="formulaire-contact">
+                
+                <label for="nomComplet">Nom complet</label>
+                <input type="text" id="nomComplet" name="nomComplet" required > <br>
+
+                <label for="email">Email Institutionnel</label>
+                <input type="email" id="email" name="email" placeholder="pathe.mbathie@univ-thies.sn" required ><br>
+
+                <label for="message">Message (détaillé)</label> 
+                <textarea id="message" name="message" rows="5" required ></textarea> <br>
+
+                <button type="submit" id="submit">Envoyer</button>
+            </form>
+    </main>
+    <footer>
+        <address>
+            <p>© 2026 Pathé MBATHIE. Tous droits réservés.</p>
+            <p><a href="mailto:pathe.mbathie@univ-thies.sn">pathe.mbathie@univ-thies.sn</a>  |  <a href="https://www.youtube.com/@TechAutour">techautour@gmail.com</a></p>
+            <p>Tel : +221 77 148 84 95</p>
+        </address>
+    </footer>
+</body>
+</html>
