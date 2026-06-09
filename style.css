@@ -242,7 +242,7 @@ address{
 #partCV{
     padding: 2rem;
 }
-#titreforma,#titrecom, #titrecom, #titrCompling,#titrtraReal{
+#titreforma,#titreexp, #titrecom, #titrCompling,#titrtraReal{
     font-weight: bold;
     color: var(--color-accent);
 }
