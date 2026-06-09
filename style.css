@@ -42,6 +42,11 @@ header{
     border-radius: 145px;
     box-shadow: 0px 2px 7px var(--color-ombre);
     border: 1px solid var(--color-ombre);
+    animation: animation_2 0.5s linear 1;
+}
+@keyframes animation_2{
+    0%{transform: scale(0);}
+    100%{transform: scale(1);}
 }
 main{
     display: grid;
@@ -96,6 +101,7 @@ main{
         margin-top: 1rem;
         margin-left: 6.2rem;
         border-radius: 109px;
+        a
     }
     #main-accueil{
         display: flex;
@@ -225,6 +231,12 @@ address{
     border-radius: 145px;
     box-shadow: 0px 2px 7px var(--color-ombre);
     border: 1px solid var(--color-ombre);
+    animation: animation_2 0.5s linear 1;
+}
+@keyframes animation_2{
+    0%{transform: scale(0);}
+    50%{transform: scale(1);}
+    100%{transform: scale(1);}
 }
 #partCV{
     display: grid;
